@@ -23,5 +23,9 @@ dist-ssr
 *.sw?
 
 # Excepciones para archivos cruciales de configuración
-!*.env
 !capacitor.config.ts
+
+# Variables de entorno (NO subir a git - contiene credenciales)
+.env
+.env.local
+.env.*.local
